@@ -1,8 +1,7 @@
 @extends('layouts.app')
 
 @section('main-content')
-    <section class="container mt-5">
-
+    <section class="container mt-5 d-flex">
         @forelse($trains as $train)
             <div class="card text-center">
                 <div class="card-header">
